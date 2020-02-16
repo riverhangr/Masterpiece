@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mindful Yoga</title>
+	<!-- css파일 첨부입니다 -->
+	<link rel = "stylesheet" type = "text/css" href = "MfY.css">
+	<!-- 구글폰트 첨부입니다 -->
+	<link href="https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+
+			$('.menu0').click(function(){
+				$('clicktxt').hide();
+				$('.detailtxt').hide();
+				$('.menu0c').show();
+			});
+			// 1차 카테고리
+			$('.menu1').click(function(){
+				$('.clicktxt').hide();
+				$('.detailtxt').hide();
+				$('.menu1c').show();
+				$('.menu1s').show();
+
+			})
+			// 1차 카테고리
+			$('.menu2').click(function(){
+				$('.clicktxt').hide();
+				$('.detailtxt').hide();
+				$('.menu2c').show();
+				$('.menu2s').show();
+
+			})
+			// 1차 카테고리
+			$('.menu3').click(function(){
+				$('.clicktxt').hide();
+				$('.detailtxt').hide();
+				$('.menu3c').show();
+
+
+			})
+			// 1차 카테고리
+			$('.menu4').click(function(){
+				$('.clicktxt').hide();
+				$('.detailtxt').hide();
+				$('.menu4c').show();
+				
+
+			})
+			// 2차 카테고리
+			$('.1sm1').click(function(){
+				$('.clicktxt').hide();
+				$('.detailtxt').hide();
+				$('.mn1why').show();
+				
+			})
+			// 2차 카테고리
+			$('.1sm2').click(function(){
+				$('.clicktxt').hide();
+				$('.detailtxt').hide();
+				$('.mn1TTC').show();
+				
+			})
+			// 2차 카테고리
+			$('.2sm1').click(function(){
+				$('.clicktxt').hide();
+				$('.detailtxt').hide();
+				$('.mn2YT').show();
+				
+			})
+			// 2차 카테고리
+			$('.2sm2').click(function(){
+				$('.clicktxt').hide();
+				$('.detailtxt').hide();
+				$('.mn2BK').show();
+				
+			})
+
+	
+
+		});
+	</script>
+</head>
+<body>
+	<div class = "bkgrnd_menu">	</div>
+	<div class = "bkgrnd_body"></div>
+	<div class="contain">
+		<div class="backtxt">
+			<div class = "bkgrnd_mn_txt">
+				<div class="menu0"> ▶ 환영합니다 </div>
+				<div class="menu1"> ▶ Mindful Yoga </div>
+					<div class="clickmn menu1s 1sm1">  ▷ Why? </div>
+					<div class="clickmn menu1s 1sm2">  ▷ TTC </div>
+				<div class="menu2"> ▶ 참고자료 </div>
+					<div class="clickmn menu2s 2sm1">  ▷ Youtube </div>
+					<div class="clickmn menu2s 2sm2">  ▷ Book </div>
+				<div class="menu3"> ▶ 문의사항 </div>
+				<div class="menu4"> ▶ Contact </div>	
+			</div>
+			<div class = "clicktxt menu0c">
+
+				 <h1>welcome</h1>
+
+			</div>
+				
+			<div class = "clicktxt menu1c">
+				
+				<h1>Mindful Yoga</h1>
+			</div>
+				<!-- 소메뉴 -->
+				<div class = "detailtxt mn1why">
+			
+					<h1>요가 종류에 대한 설명 목록</h1>
+				
+				</div>
+				<div class = "detailtxt mn1TTC">
+			
+					<h1>TTC 홈페이지 크롤링</h1>
+				
+				</div>
+				<!-- 소메뉴끝 -->
+			<div class = "clicktxt menu2c">
+				
+				<h1>참고 자료</h1>
+
+			</div>
+				<!-- 소메뉴 -->
+				<div class = "detailtxt mn2YT">
+			
+					<h1>Youtube 크롤링</h1>
+				
+				</div>
+				<div class = "detailtxt mn2BK">
+			
+					<h1>Book 크롤링</h1>
+				
+				</div>
+				<!-- 소메뉴끝 -->
+			<div class = "clicktxt menu3c">
+				
+				<h1>문의사항</h1>
+				
+			</div>
+			<div class = "clicktxt menu4c">
+				
+				<h1>Contact</h1>
+				
+			</div>
+
+		</div>
+	</div>
+		
+</body>
+</html>

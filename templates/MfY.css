@@ -1,0 +1,78 @@
+* {
+	font-family: 'Gamja Flower', cursive;
+}
+
+.contain{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.bkgrnd_menu{
+/*	menu 나무 이미지*/
+	opacity: 30%;
+	background-image: url(./mainM.png);
+	background-size: cover;
+	height: 100vh;
+	width:20vw;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+}
+
+
+.bkgrnd_body{
+	/*배경*/
+	opacity: 30%;
+	background-image: url(./mainB.jpg);
+	background-size: cover;
+	height: 100vh;
+	width:80vw;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 1;
+}
+.bkgrnd_mn_txt{
+/*	menu 카테고리를 구성하는 텍스트*/
+	padding-top:30vh;
+	padding-left:5vh;
+	font-size: 30px;
+
+	width:20vw;
+}
+.clickmn{
+/*	menu 카테고리를 구성하는 텍스트*/
+/*	padding-top:30vh;*/
+	margin-left: 15%;
+	font-size: 30px;
+	display: none;
+	width: 80vw;
+}
+.clicktxt{
+/*	menu 카테고리를 구성하는 텍스트*/
+/*	padding-top:30vh;*/
+	margin-left: 10%;
+	font-size: 70px;
+	display: none;
+	width: 80vw;
+}
+
+.maintxt.on{
+	display: flex;
+}
+.backtxt{
+	display: flex;
+}
+.detailtxt{
+	margin-left: 10%;
+	font-size: 40px;
+	display: none;
+	width: 80vw;
+}
